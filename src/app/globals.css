@@ -40,6 +40,23 @@
   --card-border-rgb: 131, 134, 135;
 }
 
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5f5e5e;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0 14px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
